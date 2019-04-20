@@ -25,17 +25,21 @@ html{
   height:100%;
 }
 
-body {
+.navbar,.home-callout, .container-fluid {
   /*gradient provided by @_ighosh at uiGradients.com*/
-  background: #16A085;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(#F4D03F, #16A085);
-  background: -moz-linear-gradient(#F4D03F, #16A085);
-  background: -o-linear-gradient(#F4D03F, #16A085);
-  background: linear-gradient(#F4D03F, #16A085);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #2c3e50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
 .navbar{
   border:none;
-  background: transparent;
+}
+
+.home-callout {
+  color:white;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
